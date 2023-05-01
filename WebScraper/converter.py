@@ -2,7 +2,9 @@ import json
 import os
 from bs4 import BeautifulSoup
 
-# Initialize essential tools/variables
+#Python script converst html files to json for use in topic modeling
+
+# Declare directory path variables & initilze count to 0 
 count = 0
 from_file = 'F:\WebScrapper\OAC Award 2023-04-30'
 to_file = 'F:\WebScrapper\OAC Award Json 2023-04-18'
@@ -29,7 +31,7 @@ for filename in os.listdir(from_file+'\\'):
 
       # Count increment, json dump, file output
       count += 1
-      json_object = json.dumps(json_dict, indent=5)
+      json_objec = json.dumps(json_dict, indent=5)
       fname = '\award_{keyword[0]}_{count}.json'
       #dname = 'CICI Award Json 2023-04-10'
       with open(to_file + f'\{award}_{keyword[0]}_{count}.json', "w") as outfile:

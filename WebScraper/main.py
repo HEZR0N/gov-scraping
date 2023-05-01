@@ -6,6 +6,11 @@ import datetime
 from bs4 import BeautifulSoup
 from googlesearch import search
 
+# Python Script reads out keywords from text file
+# Script searches google for webpages that match the keywords
+# Matching files are cataloged
+# Webpage is then scraped with BeautifalSoup web scraper
+
 # Press the green button to run the Web-Scraper
 if __name__ == '__main__':
     # Open corresponding Keywords file.
@@ -85,5 +90,5 @@ if __name__ == '__main__':
                 else:
                     pass
 
-# Completion Verification
+# Print Completion Verification
 print('Done!')
