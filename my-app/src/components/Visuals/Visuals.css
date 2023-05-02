@@ -1,0 +1,18 @@
+.title {
+    text-align:center;
+    font-family: 'Pixel';
+    font-size: 60px;
+    color:aliceblue;
+    padding: 10px;
+    margin-top: 0;
+    background-image: url(https://wallpapercave.com/wp/wp2894519.jpg);
+    
+}
+.splash{
+    text-align:center;
+    font-family:'Pixel';
+    font-size: 40px;
+    color:aliceblue;
+    padding: 10px;
+    margin: 50px;
+}

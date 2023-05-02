@@ -5,34 +5,36 @@
     padding:none;
     background-color: black;
     /* background-image: url(https://www.sussexchamberofcommerce.co.uk/images/members/People%20at%20Work-1554528162.jpg); */
+    background-image: url(https://wallpapercave.com/wp/wp2894519.jpg);
     background-position:center;
     background-attachment:scroll;
     background-repeat: no-repeat;
     background-size:cover;
     color: #fff;
     position:relative;
+    animation: example 1s linear forwards;
     
 }
 
 #homepageonly .title {
     text-align:center;
-    font-family: 'Pixel';
-    font-size: 60px;
+    font-family: 'Impact';
+    font-size: 80px;
     color:aliceblue;
     padding: 10px;
     margin-top: 0;
     animation: example 1s linear forwards;
     
 }
-#homepageonly .splash{
+#homepageonly .reg{
     text-align:center;
-    font-family:'Pixel';
-    font-size: 40px;
+    font-family:'Calibri';
+    font-size: 20px;
     color:aliceblue;
     padding: 10px;
     margin: 50px;
     opacity: 0;
-    animation: example 1s ease forwards;
+    animation: example 1s linear forwards;
     animation-delay: 1s;
     
 }
@@ -53,7 +55,7 @@
     cursor: pointer;
     background:transparent;
     opacity: 0;
-    animation: example 1s ease forwards;
+    animation: example 1s linear forwards;
     animation-delay: 1s;
     transition: var(--transition);
 }

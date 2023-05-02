@@ -38,6 +38,14 @@ const NavBar = () => {
         {/* <li><NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/Shop" end> Shop </NavLink></li> */}
         {/* <li><NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/About" end> About </NavLink></li> */}
         <li><NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/Visuals" end > Visuals </NavLink></li>
+        <li><NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/CCFAward2023-04-11" end > CCF </NavLink></li>
+        <li><NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/CICIAward2023-04-10" end > CICI </NavLink></li>
+        <li><NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/CSSIAward2023-04-16" end > CSSI </NavLink></li>
+        <li><NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/DIBBSAward2023-04-13" end > DIBBS </NavLink></li>
+        <li><NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/MRIAward2023-04-16" end > MRI </NavLink></li>
+        <li><NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/OACAward2023-04-18" end > OAC </NavLink></li>
+        <li><NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/SI2Award2023-04-24" end > SI2 </NavLink></li>
+        <li><NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/About" end > About Us </NavLink></li>
       </ul>
       <ul>
        {/* <li> { user?.email==('marco@gmail.com') && <NavLink style={({ isActive}) => { return isActive ? { color: "red"} : {}}} to="/Admin" end ><AiFillLock/>Admin</NavLink>}</li> */}

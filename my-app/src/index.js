@@ -20,15 +20,3 @@ root.render(
     </CartProvider>
   </React.StrictMode>
 );
-
-// const mongoose = require('mongoose');
-// // local, clean, topics
-// // .connect('mongodb://127.0.0.1:27017/cinema', { useNewUrlParser: true })
-// mongoose.connect('mongodb://hezron:stonewall-unlocking-racism@136.51.3.69:2222/clean', { useNewUrlParser: true })
-//     .catch(e => {
-//         console.error('Connection error', e.message)
-//     })
-
-// const db = mongoose.connection
-
-// module.exports = db
